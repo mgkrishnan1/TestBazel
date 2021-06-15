@@ -28,7 +28,7 @@ class Check
 		{ 
 			return val; 
 		}
-}
+};
 
 
 struct TF : public testing::Test 
@@ -51,7 +51,7 @@ TEST_F(TF, TestName1)
 {
 	c1->setVal(100);
 	ASSERT_EQ(c1->getVal(), 1001) << "Value Mismatch!";
-	cout << "Test Fixture completed!" << endl;
+	cout << "Test Fixture completed!!!" << endl;
 }
 
 
