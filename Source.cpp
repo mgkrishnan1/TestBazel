@@ -28,7 +28,7 @@ class Check
 		{ 
 			return val; 
 		}
-};
+}
 
 
 struct TF : public testing::Test 
